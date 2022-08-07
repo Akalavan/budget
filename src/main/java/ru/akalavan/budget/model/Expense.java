@@ -5,4 +5,7 @@ package ru.akalavan.budget.model;
  * date 01.08.2022
  */
 public class Expense {
+
+
+
 }
