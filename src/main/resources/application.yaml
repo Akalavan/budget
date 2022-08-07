@@ -1,1 +1,15 @@
-server.port=8081
+server:
+  port: 8081
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/budget
+    username: root
+    password: admin
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#spring.jpa.show-sql: true
+
+
