@@ -8,7 +8,7 @@ function getIndex(list, id) {
     return -1;
 }
 
-var itemApi = Vue.resource('v1/item{/id}')
+var itemApi = Vue.resource('/item{/id}')
 
 Vue.component('item-form', {
     props: ['items', 'itemAttr'],

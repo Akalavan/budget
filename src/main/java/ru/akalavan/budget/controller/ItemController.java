@@ -17,7 +17,7 @@ import java.util.Map;
  * date 01.08.2022
  */
 @RestController
-@RequestMapping("v1/item")
+@RequestMapping("item")
 public class ItemController {
 
     private final ItemService itemService;
