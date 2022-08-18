@@ -45,6 +45,7 @@ public class ItemController {
     @PostMapping()
     public Item create(@RequestBody Item item) {
         itemService.add(item);
+        System.out.println(item);
         return item;
     }
 
